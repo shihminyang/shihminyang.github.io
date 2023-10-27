@@ -81,29 +81,29 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
             <!-- Publication 1 -->
-            <tr onmouseout="difsurvey_stop()" onmouseover="difsurvey_start()">
+            <tr onmouseout="pub1_stop()" onmouseover="pub1_start()">
               <!-- Left part -->
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
                   <!-- Videos -->
-                  <div class="two" id='difsurvey_image'>
+                  <div class="two" id='pub1_image'>
                     <video  width=100% height=100% muted autoplay loop>
-                      <source src="images/difsurvey_video.mp4" type="video/mp4">
+                      <source src="images/ED-PMP/cover.jpg" type="video/mp4">
                       Your browser does not support the video tag.
                     </video>
                   </div>
                   <!-- Cover photo -->
-                  <img src='images/difsurvey_image.jpg' width="160">
+                  <img src='images/ED-PMP/cover.jpg' width="160">
                 </div>
                 <script type="text/javascript">
-                  function difsurvey_start() {
-                    document.getElementById('difsurvey_image').style.opacity = "1";
+                  function pub1_start() {
+                    document.getElementById('pub1_image').style.opacity = "1";
                   }
 
-                  function difsurvey_stop() {
-                    document.getElementById('difsurvey_image').style.opacity = "0";
+                  function pub1_stop() {
+                    document.getElementById('pub1_image').style.opacity = "0";
                   }
-                  difsurvey_stop()
+                  pub1_stop()
                 </script>
               </td>
 
@@ -113,6 +113,10 @@
                 <span class="papertitle">
                   Learning Extrinsic Dexterity with Parameterized Manipulation Primitives
                 </span>
+                <!-- <a href="https://arxiv.org/abs/2310.07204">
+                  <span class="papertitle">Data-driven Grasping and Pre-grasp Manipulation Using Hierarchical Reinforcement Learning with Parameterized Action Primitives
+                  </span>
+                </a> -->
                 <br>
                 <!-- Authors -->
                 <strong>Shih-Min Yang</strong>,
@@ -123,67 +127,7 @@
                 <!-- Conference/Journal -->
                 <em>arXiv preprint, 2023<em>
                 <br>
-                <p></p>
-                <!-- One sentence description -->
-                <p>
-                  One sentence description...
-                </p>
-                <!-- Keywards -->
-                <p>
-                  Keywords: Contact-rich manipulation, Hierarchical Reinfocement Learning
-                </p>
-                <!-- [Paper] [Code] [Website] -->
-                <p>
-                  <a href="https://arxiv.org/" class="btn btn-custom-sm btn-outline-dark" role="button">Paper</a>
-                  <a href="#" class="btn btn-custom-sm btn-outline-dark" role="button">Code</a>
-                  <a href="https://shihminyang.github.io/ED-PMP/" class="btn btn-custom-sm btn-outline-dark" role="button">Website</a>
-                </p>
-
-              </td>
-            </tr> <!-- END -->
-
-            <!-- Publication 2 -->
-            <tr onmouseout="pub2_stop()" onmouseover="pub2_start()">
-              <!-- Left part -->
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <!-- Videos -->
-                  <div class="two" id='pub2_image'>
-                    <video  width=100% height=100% muted autoplay loop>
-                      <source src="images/difsurvey_video.mp4" type="video/mp4">
-                      Your browser does not support the video tag.
-                    </video>
-                  </div>
-                  <!-- Cover photo -->
-                  <img src='images/difsurvey_image.jpg' width="160">
-                </div>
-                <script type="text/javascript">
-                  function pub2_start() {
-                    document.getElementById('pub2_image').style.opacity = "1";
-                  }
-
-                  function pub2_stop() {
-                    document.getElementById('pub2_image').style.opacity = "0";
-                  }
-                  pub2_stop()
-                </script>
-              </td>
-
-              <!-- Right part -->
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <!-- Paper title -->
-                <span class="papertitle">
-                  Data-driven Grasping and Pre-grasp Manipulation Using Hierarchical Reinforcement Learning with Parameterized Action Primitives
-                </span>
-                <br>
-                <!-- Authors -->
-                <strong>Shih-Min Yang</strong>,
-                <a href="https://mro.oru.se/people/martin-magnusson/">Martin Magnusson</a>,
-                <a href="https://www.oru.se/english/employee/johannesandreas_stork/">Johannes A. Stork</a>,
-                <a href="https://amm.aass.oru.se/people/todor-stoyanov/">Todor Stoyanov</a>,
-                <br>
-                <!-- Conference/Journal -->
-                <em>IROS 2023 Workshop on Leveraging Models for Contact-Rich Manipulation<em>
+                <em>IROS 2023 Workshop on Leveraging Models for Contact-Rich Manipulation<em></em>
                 <br>
                 <p></p>
                 <!-- One sentence description -->
@@ -203,7 +147,8 @@
 
               </td>
             </tr>
-            <!-- END -->
+
+            <!-- Publication 2 -->
 
             <!-- Publication 3 -->
 
@@ -263,19 +208,21 @@
 
 
           </tbody></table> -->
+
+          <!-- footnote -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:right;font-size:small;">
+                  From <a href="https://github.com/jonbarron/jonbarron_website">Website Source</a>
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
         </td>
       </tr>
     </table>
 
-    <!-- footnote -->
-    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr>
-        <td style="padding:0px;background-color:#fff5e9">
-          <p style="text-align:right;font-size:small;">
-            <a href="https://github.com/jonbarron/jonbarron_website">Website Source</a>
-          </p>
-        </td>
-      </tr>
-    </tbody></table>
   </body>
 </html>
