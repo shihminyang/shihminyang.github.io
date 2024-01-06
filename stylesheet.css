@@ -139,3 +139,15 @@ span.highlight {
   padding: 1px 5px;
   font-size: 12px;
 }
+
+ul {
+  list-style-position: outside;
+  /* margin-left: 0; */
+  /* padding-left: 1em; */
+  padding-left:10px;
+  margin: 0px 0px 0px 0px;
+}
+
+.same-width {
+  font-family: monospace;
+}
