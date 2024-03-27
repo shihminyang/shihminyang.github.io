@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Object Picking and Constrained Placement by Visual Reasoning">
+  <meta name="keywords" content="robotics manipulation, 6D pose estimation, LLM, visual reasoning">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Object Picking and Constrained Placement by Visual Reasoning</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<!---------------------------------------------------------------->
+<body>
+
+<!-- Home and tool bar -->
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://shihminyang.github.io/">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- Title / Author / Unit / Link -->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <!-- Paper Title -->
+          <h1 class="title is-1 publication-title">Object Picking and Constrained Placement by Visual Reasoning</h1>
+
+          <!-- Authors -->
+          <div class="is-size-5 publication-authors">
+            <!-- 1 -->
+            <span class="author-block">
+              <a href="https://shihminyang.github.io/">Shih-Min Yang</a>, </span>
+            <!-- 2 -->
+            <span class="author-block">
+              <a href="https://www.oru.se/english/employee/yufei_zhu">Yufei Zhu</a>, </span>
+            <!-- 3 -->
+            <span class="author-block">
+              <a href="https://rishihazra.github.io/">Rishi Hazra</a>, </span>
+            <!-- 4 -->
+            <span class="author-block">
+              Karol Wojtulewicz,</span>
+            <!-- 5 -->
+            <span class="author-block">
+              Kamran Hosseini</span>
+          </div>
+
+          <!-- Unit -->
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Örebro University and Linköping University</span>
+            <!-- <span class="author-block"><sup>1</sup>Google Research</span> -->
+          </div>
+
+          <!-- Link Buttons -->
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- arXiv -->
+
+              <!-- Video -->
+
+              <!-- Code -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- A Concept Video -->
+<section class="hero concept_video">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video id="concept_video"autoplay controls muted loop playsinline width="100%">
+        <source src="./static/videos/concept_video/concept.mp4"
+                type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        We developed a robotic system that includes a detection module, a
+        planning module, and an in-hand perception and control module to
+        address the object picking and constrained placement task.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<!-- Example Videos -->
+<section class="hero is-light is-small">
+
+</section>
+
+<!-- Abstract & Presentation -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            This project aims to develop a robotic pick-and-place system that goes beyond traditional methods by intelligently planning and executing object placement in specific poses, addressing complex constraints found in industrial tasks like kitting and assembly.
+            At its core are automated planning and perception: the planning module generates plans based on predefined constraints, while the perception module detects and estimates the poses of objects and containers.
+            A key task example involves placing objects by specified shape and color into corresponding containers. The system is divided into detection, planning, and in-hand perception and control modules.
+            These work in tandem to identify object properties, generate step-by-step tasks from natural language inputs, and adjust the robot arm's movement to ensure objects are correctly oriented to match container specifications.
+            Each module has been evaluated individually and has been integrated into a complete proof-of-concept system. The system demonstrates the feasibility of visual reasoning for pick and place, including in-hand perception to account for uncertainty in the attained grasp configuration.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footprint -->
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>Website template is from this <a href="https://github.com/nerfies/nerfies.github.io">Source</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
