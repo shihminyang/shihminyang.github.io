@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="KEA: Keeping Exploration Alive by Proactively Coordinating Exploration Strategies">
+  <meta name="keywords" content="Reinforcement Learning, RL, Novelty-based Exploration, Curiosity-based Exploration, Sparse Reward, Soft Actor-Critic, SAC">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KEA: Keeping Exploration Alive by Proactively Coordinating Exploration Strategies</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<!---------------------------------------------------------------->
+<body>
+
+<!-- Home and tool bar -->
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="#">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- Title / Author / Unit / Link -->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <!-- Paper Title -->
+          <h1 class="title is-1 publication-title">KEA: Keeping Exploration Alive <br> by Proactively Coordinating <br> Exploration Strategies</h1>
+
+          <!-- Authors -->
+          <div class="is-size-5 publication-authors">
+            <!-- 1 -->
+            <span class="author-block">
+              <a href="https://shihminyang.github.io/">Shih-Min Yang</a>, </span>
+            <!-- 2 -->
+            <span class="author-block">
+              <a href="https://mro.oru.se/people/martin-magnusson/">Martin Magnusson</a>, </span>
+            <!-- 3 -->
+            <span class="author-block">
+              <a href="https://www.oru.se/english/employee/johannesandreas_stork/">Johannes A. Stork</a>, </span>
+            <!-- 4 -->
+            <span class="author-block">
+              <a href="https://amm.aass.oru.se/people/todor-stoyanov/">Todor Stoyanov</a></span>
+            <!-- <span class="author-block">
+              <a href="https://jonbarron.info">Jonathan T. Barron</a><sup>2</sup></span> -->
+          </div>
+
+          <!-- Unit -->
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Örebro University</span>
+          </div>
+
+          <!-- Link Buttons -->
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- arXiv -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2503.18234"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="ai ai-arxiv"></i></span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video -->
+              <!-- <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-youtube"></i></span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+              <!-- Code -->
+              <span class="link-block">
+                <a href="https://github.com/shihminyang/KEA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-github"></i></span>
+                  <span>Code</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- A Concept Video -->
+<section class="hero concept_video">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <!-- <video id="concept_video" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/concept_video/concept.mp4"
+                type="video/mp4">
+      </video> -->
+      <img src="./static/images/issue.png"
+           class="interpolation-image"
+           alt="Interpolate start reference image."/>
+      <h2 class="subtitle has-text-centered">
+        <!-- [TBD] -->
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<!-- Abstract & Presentation -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          Soft Actor-Critic (SAC) has achieved notable success in continuous control tasks but struggles in sparse reward settings, where infrequent rewards make efficient exploration challenging. While novelty-based exploration methods address this issue by encouraging the agent to explore novel states, they are not trivial to apply to SAC. In particular, managing the interaction between novelty-based exploration and SAC’s stochastic policy can lead to inefficient exploration and redundant sample collection. In this paper, we propose KEA (Keeping Exploration Alive) which tackles the inefficiencies in balancing exploration strategies when combining SAC with novelty-based exploration. KEA integrates a novelty-augmented SAC with a standard SAC agent, proactively coordinated via a switching mechanism. This coordination allows the agent to maintain stochasticity in high-novelty regions, enhancing exploration efficiency and reducing repeated sample collection. We first analyze this potential issue in a 2D navigation task, and then evaluate KEA on the DeepSea hard-exploration benchmark as well as sparse reward control tasks from the DeepMind Control Suite. Compared to state-of-the-art novelty-based exploration baselines, our experiments show that KEA significantly improves learning efficiency and robustness in sparse reward setups.
+        </div>
+      </div>
+    </div>
+
+    <!-- Presentation Video -->
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div> -->
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Method -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">KEA</h2>
+        <div class="content has-text-justified">
+          <img src="./static/images/overview.png"
+               class="interpolation-image"
+               alt="Interpolate start reference image."/>
+          <p>
+            <!-- [TBD] -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Cite -->
+<!-- <section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+      @article{yang2025kea,
+        title={KEA: Keeping Exploration Alive by Proactively Coordinating Exploration Strategies},
+        author={Yang, Shih-Min and Magnusson, Martin and Stork, Johannes A and Stoyanov, Todor},
+        journal={International Conference on Machine Learning},
+        year={2025}
+      }
+    </code></pre>
+  </div>
+</section> -->
+
+
+<!-- Footprint -->
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="https://arxiv.org/abs/2503.18234">
+        <i class="fas fa-file-pdf"></i></a>
+      <a class="icon-link" href="https://github.com" class="external-link" disabled>
+        <i class="fab fa-github"></i></a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>Website template is from this <a href="https://github.com/nerfies/nerfies.github.io">Source</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
