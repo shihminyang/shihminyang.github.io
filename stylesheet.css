@@ -1,9 +1,14 @@
+/* ================================
+   Fonts (keep your original)
+   ================================ */
+
 /* latin-ext */
 @font-face {
   font-family: 'Lato';
   font-style: italic;
   font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
+  src: local('Lato Italic'), local('Lato-Italic'),
+       url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -11,7 +16,8 @@
   font-family: 'Lato';
   font-style: italic;
   font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
+  src: local('Lato Italic'), local('Lato-Italic'),
+       url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* latin-ext */
@@ -19,7 +25,8 @@
   font-family: 'Lato';
   font-style: italic;
   font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'),
+       url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -27,7 +34,8 @@
   font-family: 'Lato';
   font-style: italic;
   font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'),
+       url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* latin-ext */
@@ -35,7 +43,8 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
+  src: local('Lato Regular'), local('Lato-Regular'),
+       url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -43,7 +52,8 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+  src: local('Lato Regular'), local('Lato-Regular'),
+       url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* latin-ext */
@@ -51,7 +61,8 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
+  src: local('Lato Bold'), local('Lato-Bold'),
+       url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -59,63 +70,144 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+  src: local('Lato Bold'), local('Lato-Bold'),
+       url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-a {
-  color: #1772d0;
+
+/* ================================
+   Design tokens
+   ================================ */
+:root{
+  --font-sans: "Lato", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+
+  --text: #111827;
+  --muted: #374151;
+  --muted-2: #6b7280;
+
+  --link: #1772d0;
+  --link-hover: #f09228;
+
+  --radius: 10px;
+
+  /* Type scale (responsive) */
+  --fs-body: 1rem;                 /* 16px baseline */
+  --fs-small: 0.92rem;             /* ~14.7px */
+  --fs-micro: 0.86rem;             /* ~13.6px */
+  --fs-h2: clamp(1.25rem, 1.05rem + 0.7vw, 1.55rem);  /* 20–25px */
+  --fs-name: clamp(2.05rem, 1.6rem + 1.6vw, 2.7rem);  /* 33–43px */
+  --fs-paper: 1.06rem;             /* ~17px */
+
+  --lh-body: 1.65;
+  --lh-tight: 1.25;
+}
+
+
+/* ================================
+   Base
+   ================================ */
+html{ font-size: 15px; }
+
+.author-me{
+  background-color:#E5F5E5;
+  padding:4px;
+  border-radius: 4px;
+}
+
+body{
+  font-family: var(--font-sans);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Make table-based layout inherit typography cleanly */
+td, th, tr{ font: inherit; color: inherit; }
+
+/* IMPORTANT: Prevent images/videos from blowing up table column widths */
+img, video{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Paragraph rhythm */
+p{
+  margin: 0 0 0.85em 0;
+  color: var(--text);
+}
+
+/* Links */
+a{
+  color: var(--link);
+  text-decoration: none;
+  text-underline-offset: 2px;
+}
+a:focus, a:hover{
+  color: var(--link-hover);
   text-decoration: none;
 }
 
-a:focus,
-a:hover {
-  color: #f09228;
-  text-decoration: none;
+/* Headings */
+h2{
+  margin: 0.25rem 0 0.75rem 0;
+  font-size: var(--fs-h2);
+  line-height: var(--lh-tight);
+  font-weight: 650;
+  letter-spacing: -0.01em;
 }
 
-body,
-td,
-th,
-tr,
-p,
-a {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+/* Your name */
+.name{
+  padding-top: 18px;
+  margin: 0 0 0.35rem 0;
+  font-size: var(--fs-name);
+  line-height: 1.05;
+  font-weight: 750;
+  letter-spacing: -0.02em;
 }
 
-strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+/* Emphasis */
+strong{ font-weight: 700; }
+em{ color: var(--muted); }
+
+/* Paper titles */
+.papertitle{
+  font-size: var(--fs-paper);
+  font-weight: 750;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
 }
 
-h2 {
+/* Lists */
+ul{
+  list-style-position: outside;
+  padding-left: 1.1rem;
   margin: 0;
-  font-weight: normal;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
 }
+li{ margin: 0.2rem 0; }
 
-.papertitle {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-}
+/* Optional helpers */
+.text-small{ font-size: var(--fs-small); color: var(--muted); }
+.text-muted{ color: var(--muted); }
 
-.name {
-  padding-top: 20px;
-  margin: 0;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
-}
 
-.one {
+
+/* ================================
+   Existing template visuals you use
+   (for hover videos / overlays)
+   ================================ */
+.one{
   width: 160px;
   height: 160px;
   position: relative;
 }
 
-.two {
+.two{
   width: 160px;
   height: 160px;
   position: absolute;
@@ -124,98 +216,334 @@ h2 {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
-.fade {
+.fade{
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
   -webkit-transition: opacity .2s ease-in-out;
 }
 
-span.highlight {
-  background-color: #ffffd0;
-}
 
-.btn-custom-sm {
-  width: 65px;
-  padding: 1px 5px;
-  font-size: 12px;
-}
-
-ul {
-  list-style-position: outside;
-  /* margin-left: 0; */
-  /* padding-left: 1em; */
-  padding-left:10px;
-  margin: 0px 0px 0px 0px;
-}
-
-
-/* ********** News ********** */
-.news-list {
-  list-style: disc;
-  padding-left: 10px;          /* normal bullet indent */
-  margin: 0;
-  line-height: 1.4;
-}
-
-.news-list li {
-  display: flex;
-  flex-wrap: wrap;             /* allow text to wrap nicely */
-  align-items: flex-start;
+/* ================================
+   Buttons (your small pill buttons)
+   ================================ */
+.btn-custom-sm{
+  min-width: 72px;
   padding: 4px 10px;
-  margin: 2px 0;
-  border-radius: 6px;
+  font-size: var(--fs-micro);
+  line-height: 1.1;
+  border-radius: 999px;
+  letter-spacing: 0.01em;
+}
+
+
+/* ================================
+   News
+   ================================ */
+.news-list{
+  list-style: disc;
+  padding-left: 1.1rem;
+  margin: 0;
+}
+
+/* Row container */
+.news-list li{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;              /* tighter vertical alignment */
+  gap: 0.6rem;
+
+  padding: 6px 10px;                /* ↓ reduced height */
+  margin: 4px 0;                    /* ↓ tighter stacking */
+
+  border-radius: 8px;               /* slightly sharper */
+  line-height: 1.45;                /* ↓ was too tall */
+
   transition: background-color 0.15s ease, box-shadow 0.15s ease;
 }
 
-.news-list li:nth-child(odd) {
-  background-color: #C2E8C2;   /* slightly deeper */
+.news-list li:nth-child(odd){
+  background-color: #C2E8C2;
+}
+.news-list li:nth-child(even){
+  background-color: #E5F5E5;
 }
 
-.news-list li:nth-child(even) {
-  background-color: #E5F5E5;   /* slightly lighter */
+.news-list li:hover{
+  box-shadow: 0 2px 4px rgba(0,0,0,0.10);
 }
 
-.news-list li:hover {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.news-date {
-  font-family: monospace;
-  font-weight: 600;
-  width: 90px;                 /* keep dates aligned */
+.news-date{
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: var(--fs-micro);
+  font-weight: 700;
+  color: var(--muted);
+  width: 10ch;                 /* aligns better than px */
   flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
 }
 
-.news-text {
-  flex: 1;                      /* takes remaining width */
+.news-text{
+  flex: 1;
+  font-size: 0.95rem;               /* balanced with body text */
+  color: #111827;
 }
-/* ****************************** */
 
-/* *** News image on the right *** */
-.news-photo-cell {
+
+/* News image on the right (THIS fixes your “weird ratio”) */
+.news-photo-cell{
   width: 20%;
   padding: 5px;
   vertical-align: middle;
-  border-radius: 10px 10px 10px 10px;
   text-align: center;
 }
 
-.news-photo-link {
+.news-photo-link{
   display: inline-block;
-  border-radius: 8px;
-  overflow: hidden;  /* ensures rounded corners are applied */
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  width: 100%;
+  max-width: 260px;           /* key: caps the column’s min width */
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.news-photo-link:hover {
+.news-photo-link:hover{
   transform: scale(1.04);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.30);
 }
 
-.news-photo {
-  max-width: 100%;
+.news-photo{
+  width: 100%;
   height: auto;
-  display: block;
-  border-radius: 8px;   /* rounded corners for the photo */
+  border-radius: 10px;
 }
-/* ****************************** */
+
+
+/* ================================
+   Research Experiences
+   ================================ */
+.exp-list{
+  list-style: disc;
+  padding-left: 1.1rem;
+  margin: 0;
+  line-height: 1.45;
+}
+
+.exp-item{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border-radius: var(--radius);
+  transition: box-shadow 0.2s ease;
+}
+
+.exp-item:nth-child(odd){
+  background-color: #d1d1d127;
+}
+.exp-item:nth-child(even){
+  background-color: #d1d1d127;
+}
+
+.exp-item:hover{
+  box-shadow: 0 2px 4px rgba(0,0,0,0.10);
+}
+
+/* icon column */
+.exp-logo{
+  width: 65px;
+  flex: 0 0 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exp-icon{
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+  display: block;
+  margin-top: 0;
+}
+
+/* text */
+.exp-body{ flex: 1; }
+
+.exp-head{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+  line-height: 1.25;
+  margin-bottom: 4px;
+}
+
+.exp-date{
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: var(--fs-micro);
+  font-weight: 700;
+  color: var(--muted);
+  background: rgba(207, 208, 214, 0.514);
+  padding: 6px 4px;
+  border-radius: 10px;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.exp-title{
+  font-weight: 750;
+  color: var(--text);
+}
+
+.exp-org{
+  font-weight: 550;
+  color: var(--muted);
+}
+
+.exp-desc{
+  margin-top: 2px;
+  font-size: var(--fs-small);
+  color: var(--muted);
+}
+
+
+/* ================================
+   Mobile tweaks
+   ================================ */
+@media (max-width: 640px){
+  body{ font-size: 1.02rem; }
+  .news-date{ width: auto; }
+}
+
+
+/* ================================
+   Research thumbnail upgrade
+   ================================ */
+
+.thumb-cell{
+  width: 25%;
+  padding: 18px !important;
+  vertical-align: middle;
+}
+
+/* Card container */
+.thumb{
+  --thumb-size: 168px;
+
+  width: var(--thumb-size);
+  height: var(--thumb-size);
+  display: block;
+  position: relative;
+
+  border-radius: 18px;                 /* modern, friendly */
+  overflow: hidden;
+  background: #f3f4f6;
+
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.2);
+  transform: translateZ(0);            /* smoother */
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+/* Hover: lift slightly */
+.thumb:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 16px 40px rgba(0, 70, 0, 0.2);
+}
+
+/* Base image */
+.thumb-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;                   /* always good cropping */
+  display: block;
+  transform: scale(1.01);              /* avoids hairline edges */
+}
+
+/* Hover video/gif layer */
+.thumb-hover{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  opacity: 0;
+  transition: opacity 180ms ease;
+}
+
+/* Show hover media when available */
+.thumb:hover .thumb-hover{
+  opacity: 1;
+}
+
+/* Premium overlay (subtle gloss + vignette) */
+.thumb-overlay{
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+
+  background:
+    radial-gradient(120% 120% at 0% 0%, rgba(255,255,255,0.35), rgba(255,255,255,0) 55%),
+    linear-gradient(to bottom, rgba(0,0,0,0.00), rgba(0,0,0,0.18));
+  opacity: 0.9;
+}
+
+/* Optional: a tiny border to sharpen on white pages */
+.thumb{
+  outline: 1px solid rgba(17,24,39,0.06);
+  outline-offset: -1px;
+}
+
+/* Mobile: reduce size so it doesn’t dominate */
+@media (max-width: 640px){
+  .thumb{ --thumb-size: 140px; }
+  .thumb-cell{ width: auto; padding: 14px !important; }
+}
+
+/* ================================
+   Thumbnail media logic (robust)
+   ================================ */
+
+/* Base image */
+.thumb-img,
+.thumb-video,
+.thumb-hover{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Video-only mode */
+.thumb.video-only{
+  background: black; /* avoids gray flash */
+}
+
+.thumb.video-only .thumb-video{
+  position: absolute;
+  inset: 0;
+  opacity: 1;
+}
+
+/* Hover-video mode */
+.thumb.has-hover .thumb-hover{
+  opacity: 0;
+  transition: opacity 180ms ease;
+}
+
+.thumb.has-hover:hover .thumb-hover{
+  opacity: 1;
+}
+
+/* Ensure image stays visible under hover */
+.thumb.has-hover .thumb-img{
+  opacity: 1;
+}
+
+/* Overlay always on top */
+.thumb-overlay{
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}

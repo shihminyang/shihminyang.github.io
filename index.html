@@ -103,7 +103,7 @@
                   </li>
                   <li>
                     <span class="news-date">OCT, 2024:</span>
-                    <span class="news-text">Research Intern at the <a href="https://weblab.t.u-tokyo.ac.jp/en/">Matsuo-Iwasawa Laboratory</a>, University of Tokyo, working on robotic foundation models</span>
+                    <span class="news-text">Research Intern at <a href="https://weblab.t.u-tokyo.ac.jp/en/">Matsuo-Iwasawa Laboratory</a>, University of Tokyo, working on robotic foundation models</span>
                   </li>
                   <li>
                     <span class="news-date">JUN, 2024:</span>
@@ -132,11 +132,70 @@
           </tbody></table>
 
           <!---------------------------------->
+          <!-- Research Experiences ---------->
+          <!---------------------------------->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:20px;padding-bottom:10px;width:100%;vertical-align:middle">
+                <h2>Research Experiences</h2>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto"><tbody>
+            <tr>
+              <!-- match News left padding & width -->
+              <td style="padding:5px;width:80%;vertical-align:middle;">
+
+                <ul class="exp-list">
+                  <li class="exp-item">
+                    <div class="exp-logo">
+                      <img src="images/research_exp/oru.png" class="exp-icon" alt="Örebro University logo">
+                    </div>
+                    <div class="exp-body">
+                      <div class="exp-head">
+                        <span class="exp-date">2024 – Now</span>
+                        <span class="exp-title">PhD Student in Computer Science</span>
+                        <span class="exp-org">Örebro University, Sweden</span>
+                      </div>
+                      <div class="exp-desc">
+                        Working on data-efficient robotic manipulation with intrinsic-reward exploration,
+                        hierarchical RL, and robotic foundation models.
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="exp-item">
+                    <div class="exp-logo">
+                      <img src="images/research_exp/utokyo.png" class="exp-icon" alt="University of Tokyo logo">
+                    </div>
+                    <div class="exp-body">
+                      <div class="exp-head">
+                        <span class="exp-date">Oct 2024 – Dec 2025</span>
+                        <span class="exp-title">Research Intern</span>
+                        <span class="exp-org">
+                          <a href="https://weblab.t.u-tokyo.ac.jp/en/">Matsuo-Iwasawa Laboratory</a>,
+                          University of Tokyo, Japan
+                        </span>
+                      </div>
+                      <div class="exp-desc">
+                        Worked on Vision-Language-Action (VLA) models for robotics, focusing on improving
+                        generalization across manipulation tasks.
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+
+              </td>
+            </tr>
+          </tbody></table>
+
+          <!---------------------------------->
           <!-- Research/Publications --------->
           <!---------------------------------->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
-              <td style="padding:20px;padding-bottom:0px;width:100%;vertical-align:middle">
+              <td style="padding:20px;padding-bottom:10px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
               </td>
               </tr>
@@ -144,22 +203,32 @@
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <!-- Publication 3 -->
+            <tr onmouseout="pub1_stop()" onmouseover="pub1_start()"></tr>
+              <!-- Left part -->
+              <!--
+              <td class="thumb-cell">
+                <a class="thumb has-hover" href="">
+                  <img class="thumb-img" src="" alt="">
+                  <video class="thumb-hover" muted autoplay loop playsinline>
+                    <source src="" type="video/mp4">
+                  </video>
+                  <span class="thumb-overlay" aria-hidden="true"></span>
+                </a>
+              </td>
+              -->
+
+              <!-- Right part -->
+            </tr>
 
             <!-- Publication 2 -->
             <tr onmouseout="pub1_stop()" onmouseover="pub1_start()">
               <!-- Left part -->
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <!-- Videos -->
-                  <div class="two" id='pub1_image'>
-                    <video width=100% height=100% muted autoplay loop>
-                      <source src="images/KEA/cover.png" type="video/mp4">
-                      Your browser does not support the video tag.
-                    </video>
-                  </div>
-                  <!-- Cover photo -->
-                  <img src='images/KEA/cover.png' height="160">
-                </div>
+              <td class="thumb-cell">
+                <a class="thumb" href="https://arxiv.org/abs/2503.18234" aria-label="KEA paper">
+                  <!-- Base image (always visible) -->
+                  <img class="thumb-img" src="images/KEA/cover.png" alt="KEA cover">
+                  <span class="thumb-overlay" aria-hidden="true"></span>
+                </a>
               </td>
 
               <!-- Right part -->
@@ -170,13 +239,13 @@
                 </span>
                 <br>
                 <!-- Authors -->
-                <span style="background-color:#FFFF00">Shih-Min Yang</span>,
+                <span class="author-me">Shih-Min Yang</span>,
                 <a href="https://mro.oru.se/people/martin-magnusson/">Martin Magnusson</a>,
                 <a href="https://www.oru.se/english/employee/johannesandreas_stork/">Johannes A. Stork</a>,
                 <a href="https://amm.aass.oru.se/people/todor-stoyanov/">Todor Stoyanov</a>
                 <br>
                 <!-- Conference/Journal -->
-                <em>International Conference on Machine Learning 2025<em>
+                <em>International Conference on Machine Learning 2025</em>
                 <br>
                 <!-- One sentence description -->
                 <p style="padding-top:5px;">
@@ -200,16 +269,13 @@
             <!-- Publication 1 -->
             <tr onmouseout="pub1_stop()" onmouseover="pub1_start()">
               <!-- Left part -->
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <!-- Videos -->
-                  <div class="two" id='pub1_image'>
-                    <video width=100% height=100% muted autoplay loop>
-                      <source src="images/ED-PMP/cover.mp4" type="video/mp4">
-                      Your browser does not support the video tag.
-                    </video>
-                  </div>
-                </div>
+              <td class="thumb-cell">
+                <a class="thumb video-only" href="https://arxiv.org/abs/2310.17785" aria-label="KEA paper">
+                  <video class="thumb-video" muted autoplay loop playsinline>
+                    <source src="images/ED-PMP/cover.mp4" type="video/mp4">
+                  </video>
+                  <span class="thumb-overlay" aria-hidden="true"></span>
+                </a>
               </td>
 
               <!-- Right part -->
@@ -224,13 +290,13 @@
                 </a> -->
                 <br>
                 <!-- Authors -->
-                <span style="background-color:#FFFF00">Shih-Min Yang</span>,
+                <span class="author-me">Shih-Min Yang</span>,
                 <a href="https://mro.oru.se/people/martin-magnusson/">Martin Magnusson</a>,
                 <a href="https://www.oru.se/english/employee/johannesandreas_stork/">Johannes A. Stork</a>,
                 <a href="https://amm.aass.oru.se/people/todor-stoyanov/">Todor Stoyanov</a>
                 <br>
                 <!-- Conference/Journal -->
-                <em>IEEE International Conference on Robotics and Automation 2024<em>
+                <em>IEEE International Conference on Robotics and Automation 2024</em>
                 <br>
                 <!-- <em>IROS 2023 Workshop on Leveraging Models for Contact-Rich Manipulation<em></em> -->
                 <!-- <br> -->
@@ -270,28 +336,11 @@
             <!-- Project 2 -->
             <tr onmouseout="pro2_stop()" onmouseover="pro2_start()">
               <!-- Left part -->
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <!-- Videos -->
-                  <div class="two" id='pro2_image'>
-                    <video  width=100% height=100% muted autoplay loop>
-                      <source src="images/DARKO/cover.jpg" type="video/mp4">
-                      Your browser does not support the video tag.
-                    </video>
-                  </div>
-                  <!-- Cover photo -->
-                  <img src='images/DARKO/cover.jpg' width="160">
-                </div>
-                <script type="text/javascript">
-                  function pro2_start() {
-                    document.getElementById('pro2_image').style.opacity = "1";
-                  }
-
-                  function pro2_stop() {
-                    document.getElementById('pro2_image').style.opacity = "0";
-                  }
-                  pro2_stop()
-                </script>
+              <td class="thumb-cell">
+                <a class="thumb" href="https://darko-project.eu/">
+                  <img class="thumb-img" src="images/DARKO/cover.jpg" alt="ED-PMP cover">
+                  <span class="thumb-overlay" aria-hidden="true"></span>
+                </a>
               </td>
 
               <!-- Right part -->
@@ -328,28 +377,11 @@
             <!-- Project 1 -->
             <tr onmouseout="pro1_stop()" onmouseover="pro1_start()">
               <!-- Left part -->
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <!-- Videos -->
-                  <div class="two" id='pro1_image'>
-                    <video  width=100% height=100% muted autoplay loop>
-                      <source src="images/WASP/cover.jpg" type="video/mp4">
-                      Your browser does not support the video tag.
-                    </video>
-                  </div>
-                  <!-- Cover photo -->
-                  <img src='images/WASP/cover.jpg' width="160">
-                </div>
-                <script type="text/javascript">
-                  function pro1_start() {
-                    document.getElementById('pro1_image').style.opacity = "1";
-                  }
-
-                  function pro1_stop() {
-                    document.getElementById('pro1_image').style.opacity = "0";
-                  }
-                  pro1_stop()
-                </script>
+              <td class="thumb-cell">
+                <a class="thumb" href="https://shihminyang.github.io/wasp_project/">
+                  <img class="thumb-img" src="images/WASP/cover.jpg" alt="WASP cover">
+                  <span class="thumb-overlay" aria-hidden="true"></span>
+                </a>
               </td>
 
               <!-- Right part -->
@@ -362,7 +394,7 @@
                 <br>
                 <!-- Authors -->
                 Yufei Zhu*,
-                <span style="background-color:#FFFF00">Shih-Min Yang</span>*,
+                <span class="author-me">Shih-Min Yang</span>*,
                 Rishi Hazra*, Kamran Hosseini, Karol Wojtulewicz
                 <br>
                 <!-- One sentence description -->
