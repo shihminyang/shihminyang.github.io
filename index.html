@@ -91,7 +91,11 @@
                   <ul class="news-list">
                   <li>
                     <span class="news-date">FEB, 2026:</span>
-                    <span class="news-text">Our two papers accepted at ICLR 2026 (<a href="#nemo-map-paper"><strong>NeMo-Map</strong></a>) and ICRA 2026 (<a href="#hicrow-paper"><strong>HiCrowd</strong></a>)</span>
+                    <span class="news-text">Our paper (<a href="#hicrow-paper"><strong>HiCrowd</strong></a>) accepted at ICRA 2026</span>
+                  </li>
+                  <li>
+                    <span class="news-date">FEB, 2026:</span>
+                    <span class="news-text">Our paper (<a href="#nemo-map-paper"><strong>NeMo-Map</strong></a>) accepted at ICLR 2026</span>
                   </li>
                   <li>
                     <span class="news-date">JUL, 2025:</span>
@@ -128,12 +132,63 @@
                 </td>
                 <!-- Right, image -->
                 <td class="news-photo-cell">
-                  <a href="images/news/24-dec-japan.jpg" class="news-photo-link">
-                    <img src="images/news/24-dec-japan.jpg" class="news-photo">
+                  <a id="news-photo-link" class="news-photo-link" href="images/news/24-dec-japan.jpg" >
+                    <img id="news-photo" src="images/news/24-dec-japan.jpg" class="news-photo"
+                    >
                   </a>
                 </td>
               </tr>
           </tbody></table>
+          <!-- Switch photos -->
+          <script>
+            const images = [
+              "images/news/24-dec-japan.jpg",
+              "images/news/24-dec-utokyo.jpg",
+              "images/news/25-jan-lab.jpg",
+              "images/news/25-jun-darko1.jpg",
+              "images/news/25-jun-darko2.jpg",
+              "images/news/25-jun-darko-final.jpg",
+              "images/news/24-jan-deom_abb.jpg",
+            ];
+
+            let idx = 0;
+            const img = document.getElementById("news-photo");
+            const link = document.getElementById("news-photo-link");
+            const FADE_DURATION = 500;  // ms
+            const INTERVAL = 3000;      // ms
+
+            function swapImage() {
+              img.style.opacity = 0;
+
+              setTimeout(() => {
+                idx = (idx + 1) % images.length;
+                img.src = images[idx];
+                link.href = images[idx];
+                img.style.opacity = 1;
+              }, FADE_DURATION);
+            }
+
+            // initial image
+            img.style.opacity = 0;
+            setTimeout(() => {
+              img.src = images[idx];
+              link.href = images[idx];
+              img.style.opacity = 1;
+            }, 50);
+
+            // start ONE timer
+            let timer = setInterval(swapImage, INTERVAL);
+
+            // Pause on hover
+            img.addEventListener("mouseenter", () => {
+              clearInterval(timer);
+              timer = null;
+            });
+
+            img.addEventListener("mouseleave", () => {
+              if (!timer) timer = setInterval(swapImage, INTERVAL);
+            });
+          </script>
 
           <!---------------------------------->
           <!-- Research Experiences ---------->
