@@ -38,7 +38,7 @@
                 <!-- Introduction -->
                 <p>
                   I am a Ph.D. student at Örebro University in Sweden, under the supervision of
-                  <a href="https://mro.oru.se/people/martin-magnusson/">Martin Magnusson</a>,
+                  <a href="https://www.oru.se/english/employee/martin_magnusson">Martin Magnusson</a>,
                   <a href="https://amm.aass.oru.se/people/todor-stoyanov/">Todor Stoyanov</a>, and
                   <a href="https://www.oru.se/english/employee/johannesandreas_stork/">Johannes A. Stork</a>.
                   I am working on the <a href="https://darko-project.eu/">DARKO EU project</a> and
@@ -91,7 +91,7 @@
                   <ul class="news-list">
                   <li>
                     <span class="news-date">FEB, 2026:</span>
-                    <span class="news-text">Our paper (<a href="#hicrow-paper"><strong>HiCrowd</strong></a>) accepted at ICRA 2026</span>
+                    <span class="news-text">Our paper (<a href="#hicrowd-paper"><strong>HiCrowd</strong></a>) accepted at ICRA 2026</span>
                   </li>
                   <li>
                     <span class="news-date">FEB, 2026:</span>
@@ -279,7 +279,99 @@
               <!-- Right part -->
             </tr>
 
-            <!-- Publication 2 -->
+            <!------------ Publication Co-author ------------>
+            <tr onmouseout="pub1_stop()" onmouseover="pub1_start()">
+              <!-- Left part -->
+              <td class="thumb-cell" id="hicrowd-paper">
+                <a class="thumb" href="" aria-label="hicrowd paper">
+                  <!-- Base image (always visible) -->
+                  <img class="thumb-img" src="images/HiCrowd/cover.png" alt="HiCrowd cover">
+                  <span class="thumb-overlay" aria-hidden="true"></span>
+                </a>
+              </td>
+
+              <!-- Right part -->
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <!-- Paper title -->
+                <span class="papertitle">
+                  HiCrowd: Hierarchical Crowd Flow Alignment for Dense Human Environments
+                </span>
+                <br>
+                <!-- Authors -->
+                <a href="https://test-bai-cpu.github.io/index.html">Yufei Zhu</a>,
+                <span class="author-me">Shih-Min Yang</span>,
+                <a href="https://www.oru.se/english/employee/martin_magnusson">Martin Magnusson</a>,
+                <a href="https://allanwangliqian.com/">Allan Wang</a>
+                <br>
+                <!-- Conference/Journal -->
+                <em>IEEE International Conference on Robotics and Automation (ICRA) 2026</em>
+                <br>
+                <!-- One sentence description -->
+                <p style="padding-top:5px;">
+                  A hierarchical RL-MPC framework that treats human motion as guidance rather than obstacles.
+                  Instead of merely avoiding people, the robot actively aligns with compatible crowd flows.
+                </p>
+                <!-- Keywards -->
+                <p>
+                  Keywords: Hierarchical Reinfocement Learning, Crowd Navigation
+                </p>
+                <!-- [Paper] [Code] [Website] -->
+                <p>
+                  <a href="" class="btn btn-custom-sm btn-outline-dark" role="button">Paper (soon)</a>
+                  <a href="" class="btn btn-custom-sm btn-outline-dark" role="button">Code</a>
+                  <a href="" class="btn btn-custom-sm btn-outline-dark" role="button">Website</a>
+                </p>
+              </td>
+            </tr>
+
+            <!------------ Publication Co-author ------------>
+            <tr onmouseout="pub1_stop()" onmouseover="pub1_start()">
+              <!-- Left part -->
+              <td class="thumb-cell" id="nemo-map-paper">
+                <a class="thumb" href="https://arxiv.org/abs/2510.14827" aria-label="NeMo-map paper">
+                  <!-- Base image (always visible) -->
+                  <img class="thumb-img" src="images/NeMo-map/cover.png" alt="NeMo-map cover">
+                  <span class="thumb-overlay" aria-hidden="true"></span>
+                </a>
+              </td>
+
+              <!-- Right part -->
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <!-- Paper title -->
+                <span class="papertitle">
+                  NeMo-map: Neural Implicit Flow Fields for Spatio-Temporal Motion Mapping
+                </span>
+                <br>
+                <!-- Authors -->
+                <a href="https://test-bai-cpu.github.io/index.html">Yufei Zhu</a>,
+                <span class="author-me">Shih-Min Yang</span>,
+                <span>Andrey Rudenko</span>,
+                <span>Tomasz P. Kucner</span>,
+                <span>Achim J. Lilienthal</span>,
+                <a href="https://www.oru.se/english/employee/martin_magnusson">Martin Magnusson</a>
+                <br>
+                <!-- Conference/Journal -->
+                <em>International Conference on Learning Representations (ICLR) 2026</em>
+                <br>
+                <!-- One sentence description -->
+                <p style="padding-top:5px;">
+                  A continuous spatio-temporal map of dynamics using implicit neural representations,
+                  achieving more accurate and efficient motion pattern representation and faster training.
+                </p>
+                <!-- Keywards -->
+                <p>
+                  Keywords: Neural Implicit Representation, Spatio-temporal Motion Representation
+                </p>
+                <!-- [Paper] [Code] [Website] -->
+                <p>
+                  <a href="https://arxiv.org/abs/2510.14827" class="btn btn-custom-sm btn-outline-dark" role="button">Paper</a>
+                  <a href="https://github.com/test-bai-cpu/nemo-map" class="btn btn-custom-sm btn-outline-dark" role="button">Code</a>
+                  <a href="" class="btn btn-custom-sm btn-outline-dark" role="button">Website</a>
+                </p>
+              </td>
+            </tr>
+
+            <!------------ Publication 2 ------------>
             <tr onmouseout="pub1_stop()" onmouseover="pub1_start()">
               <!-- Left part -->
               <td class="thumb-cell" id="kea-paper">
@@ -299,12 +391,12 @@
                 <br>
                 <!-- Authors -->
                 <span class="author-me">Shih-Min Yang</span>,
-                <a href="https://mro.oru.se/people/martin-magnusson/">Martin Magnusson</a>,
+                <a href="https://www.oru.se/english/employee/martin_magnusson">Martin Magnusson</a>,
                 <a href="https://www.oru.se/english/employee/johannesandreas_stork/">Johannes A. Stork</a>,
                 <a href="https://amm.aass.oru.se/people/todor-stoyanov/">Todor Stoyanov</a>
                 <br>
                 <!-- Conference/Journal -->
-                <em>International Conference on Machine Learning 2025</em>
+                <em>International Conference on Machine Learning (ICML) 2025</em>
                 <br>
                 <!-- One sentence description -->
                 <p style="padding-top:5px;">
@@ -325,7 +417,7 @@
               </td>
             </tr>
 
-            <!-- Publication 1 -->
+            <!------------ Publication 1 ------------>
             <tr onmouseout="pub1_stop()" onmouseover="pub1_start()">
               <!-- Left part -->
               <td class="thumb-cell" id="edpmp-paper">
@@ -343,19 +435,15 @@
                 <span class="papertitle">
                   Learning Extrinsic Dexterity with Parameterized Manipulation Primitives
                 </span>
-                <!-- <a href="https://arxiv.org/abs/2310.07204">
-                  <span class="papertitle">Data-driven Grasping and Pre-grasp Manipulation Using Hierarchical Reinforcement Learning with Parameterized Action Primitives
-                  </span>
-                </a> -->
                 <br>
                 <!-- Authors -->
                 <span class="author-me">Shih-Min Yang</span>,
-                <a href="https://mro.oru.se/people/martin-magnusson/">Martin Magnusson</a>,
+                <a href="https://www.oru.se/english/employee/martin_magnusson">Martin Magnusson</a>,
                 <a href="https://www.oru.se/english/employee/johannesandreas_stork/">Johannes A. Stork</a>,
                 <a href="https://amm.aass.oru.se/people/todor-stoyanov/">Todor Stoyanov</a>
                 <br>
                 <!-- Conference/Journal -->
-                <em>IEEE International Conference on Robotics and Automation 2024</em>
+                <em>IEEE International Conference on Robotics and Automation (ICRA) 2024</em>
                 <br>
                 <!-- <em>IROS 2023 Workshop on Leveraging Models for Contact-Rich Manipulation<em></em> -->
                 <!-- <br> -->
